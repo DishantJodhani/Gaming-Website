@@ -1,8 +1,14 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url("wwwmmm.gif");
+  background: url("wwwmmm.gif");
   background-repeat: no-repeat;
-  background-size: flex;
+  box-sizing: content-box;
+  background-position-x: center;
+  background-position-y: center ;
+  background-size: 260vh;
+
+
+  
 
 }
 
