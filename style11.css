@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+nav {
+    background-image: url(okokok.jpeg);
+   
+    text-decoration: none;
+    padding: 20px;
+    margin: 0;
+    width: 110vw;
+    text-align: center;
+    mask-image: url(wolf2.png);
+    overflow: hidden;
+
+
+
+
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 70px;
+    font-size: 18px;
+    font-family: 'Monoton', cursive;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Russo One', sans-serif;
+
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.container {
+
+    text-align: center;
+    justify-content: center;
+    height: 90vh;
+    scroll-snap-align: start;
+
+}
+
+
+
+
+p {
+    margin: 0;
+    ;
+    text-align: center;
+    justify-content: center;
+
+    scroll-snap-align: start;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.one {
+    height: 90vh;
+
+
+
+}
+
+.two {
+    height: 100vh;
+    background-color: rgb(42, 123, 12);
+
+
+
+}
+
+.three {
+    height: 100vh;
+    background-color: #ac1919;
+
+
+
+}
+
+.four {
+    height: 100vh;
+    background-color: aqua;
+
+
+}
+
+.sss {
+
+    scroll-snap-type: y mandatory;
+    overflow: y scroll;
+
+    background-image: url("xmxmxm.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+section {
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    scroll-snap-align: start;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px 6px black;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgba(184, 140, 96, 0.99);
+    text-shadow: 2px 2px 2px 6px black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #f1c668;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    padding: 2px;
+    text-shadow: 2px 2px 2px 6px #fff;
+}
+
+.logo{
+    align-items: center;
+    justify-items: center;
+    margin-right:92%;
+    margin-bottom: -3%;
+    margin-top: -3%;
+}
+.logout{
+   display: inline-block;
+   overflow-x: hidden;
+   overflow-y: hidden;
+   position: relative;
+   
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monoton&family=Orbitron:wght@500&family=Permanent+Marker&display=swap"
+    rel="stylesheet">
+    
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>LOG IN</h1>
+    <form id="login-form" action="index.html">
+      <label for="email">
+        <h3>Email:</h3>
+      </label>
+
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="password">
+        <h3>Password:</h3>
+      </label>
+
+      <input type="password" id="password" name="password" required>
+      <br>
+      
+      <input type="submit" value="Login"  onclick="myFunction()" >
+     
+    </form>
+    <div id="contant-middle">
+      <p id="xn">Don't have an account? <a href="register.html"  id="wm">Sign up</a></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
